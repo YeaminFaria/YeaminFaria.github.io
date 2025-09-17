@@ -1,11 +1,16 @@
 ---
-title: "YeaminFaria.github.io"
+title: "Welcome"
+format: html
 ---
 
-This is a Quarto website.
+# Welcome
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+Welcome! I’m Yeamin, a PhD candidate in Geospatial Information Sciences at The University of Texas at Dallas.
 
-```{r}
-1 + 1
-```
+This website presents the projects and coursework I completed for the class EPPS 6323: Knowledge Mining.
+
+
+**Contact:**
+
+📧 [md.nakir.ahmed.09\@gmail.com](mailto:md.nakir.ahmed.09@gmail.com)\
+🔗 [LinkedIn](https://linkedin.com/in/YOUR-USERNAME)
