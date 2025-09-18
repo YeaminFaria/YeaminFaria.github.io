@@ -100,7 +100,7 @@ Master of Science in Environmental Sciences	(December 2019)
 - Applied Regression 
 - ML for Socio-Economic & Geo Data
 
-**Instructional Video Tutorials:** <http://www.thinkr.spatialfiltering.com/>
+**Instructional Video Tutorials:** [R Studio & R Markdown](http://www.thinkr.spatialfiltering.com/)
 ---
 ## Contact {#contact}
 
