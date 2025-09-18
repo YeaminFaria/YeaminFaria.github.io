@@ -1,16 +1,72 @@
 [
   {
+    "objectID": "New folder/styles2.html",
+    "href": "New folder/styles2.html",
+    "title": "Yeamin Faria Chowdhury",
+    "section": "",
+    "text": "body { background: linear-gradient(135deg, #a8edea, #fed6e3); }"
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Welcome",
+    "title": "Yeamin Faria Chowdhury",
     "section": "",
-    "text": "Welcome\nWelcome! I’m Yeamin, a PhD candidate in Geospatial Information Sciences at The University of Texas at Dallas.\nThis website presents the projects and coursework I completed for the class EPPS 6323: Knowledge Mining.\nContact:\n📧 md.nakir.ahmed.09@gmail.com\n🔗 LinkedIn"
+    "text": "Yeamin Faria Chowdhury is a geospatial scientist specializing in wildlife ecology, remote sensing, and spatial data science. She earned a PhD in Geospatial Information Sciences from The University of Texas at Dallas, USA. Her dissertation used camera-trap, environmental, and anthropogenic data to study mammal behavior and predator–prey dynamics in Guyana. She develops machine learning workflows in Python, R, and ArcGIS. She has teaching experience in GIS and analytics, and has received the 2024–25 Pioneer Student Research Grant and the 2025 GIS Outstanding Teaching Assistant Award.\nEducation:\nPhD in Geospatial Information Sciences (August 2025). The University of Texas at Dallas, Texas, USA.\nMaster of Science in Environmental Sciences (December 2019) Jahangirnagar University, Savar, Bangladesh."
+  },
+  {
+    "objectID": "index.html#projects",
+    "href": "index.html#projects",
+    "title": "Yeamin Faria Chowdhury",
+    "section": "Analytical Samples",
+    "text": "Analytical Samples\n\n\n\nStatistical Hierarchical Modeling\n\n\n\n\nCamera-Trap Framework for Occupancy and Activity\n\n\n\n\nMultinomial Logit Model for Behavioral Analysis\n\n\n\n\nMachine Learning Models for Classification\n\n\n\n\nOptimal Path Analysis Using Dijkstra’s Algorithm\n\n\n\n\nGIS-Based Site Suitability Analysis\n\n\n\n\nAutomated Pool Detection Using Faster R-CNN\n\n\n\n\nSpatially Constrained Clustering Analysis"
+  },
+  {
+    "objectID": "index.html#teaching",
+    "href": "index.html#teaching",
+    "title": "Yeamin Faria Chowdhury",
+    "section": "Teaching Experiences",
+    "text": "Teaching Experiences\n\nThe Global Environment\nGIS Fundamentals\nRemote Sensing Fundamentals\nAdvanced GIS Data Analysis\n\nApplied Regression\nML for Socio-Economic & Geo Data\n\nInstructional Video Tutorials: http://www.thinkr.spatialfiltering.com/"
+  },
+  {
+    "objectID": "index.html#contact",
+    "href": "index.html#contact",
+    "title": "Yeamin Faria Chowdhury",
+    "section": "Contact",
+    "text": "Contact\n\n\n  Email yeaminfaria.chowdhury@utdallas.edu \n\n\n  LinkedIn /yeamin-faria-chowdhury"
   },
   {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "About this site\n\n1 + 1\n\n[1] 2"
+    "text": "About this site\n\n\n[1] 2"
+  },
+  {
+    "objectID": "New folder/index2.html",
+    "href": "New folder/index2.html",
+    "title": "Yeamin Faria Chowdhury",
+    "section": "",
+    "text": "Yeamin Faria Chowdhury is a geospatial scientist specializing in wildlife ecology, remote sensing, and spatial data science. She earned a PhD in Geospatial Information Sciences from The University of Texas at Dallas, USA. Her dissertation used camera-trap, environmental, and anthropogenic data to study mammal behavior and predator–prey dynamics in Guyana. She develops machine learning workflows in Python, R, and ArcGIS. She has teaching experience in GIS and analytics, and has received the 2024–25 Pioneer Student Research Grant and the 2025 GIS Outstanding Teaching Assistant Award.\nEducation:\nPhD in Geospatial Information Sciences (August 2025). The University of Texas at Dallas, Texas, USA.\nMaster of Science in Environmental Sciences (December 2019) Jahangirnagar University, Savar, Bangladesh."
+  },
+  {
+    "objectID": "New folder/index2.html#projects",
+    "href": "New folder/index2.html#projects",
+    "title": "Yeamin Faria Chowdhury",
+    "section": "Analytical Samples",
+    "text": "Analytical Samples\n\n\n\nStatistical Hierarchical Modeling\n\n\n\n\nCamera-Trap Framework for Occupancy and Activity\n\n\n\n\nMultinomial Logit Model for Behavioral Analysis\n\n\n\n\nMachine Learning Models for Classification\n\n\n\n\nOptimal Path Analysis Using Dijkstra’s Algorithm\n\n\n\n\nGIS-Based Site Suitability Analysis\n\n\n\n\nAutomated Pool Detection Using Faster R-CNN\n\n\n\n\nSpatially Constrained Clustering Analysis"
+  },
+  {
+    "objectID": "New folder/index2.html#teaching",
+    "href": "New folder/index2.html#teaching",
+    "title": "Yeamin Faria Chowdhury",
+    "section": "Teaching Experiences",
+    "text": "Teaching Experiences\n\nInstructor of Record: ENVR 2302 (Global Environment), GISC 4V96 (Drone & Remote Sensing)\nTeaching Assistant: GIS Fundamentals, Remote Sensing Fundamentals, Advanced GIS, Applied Regression, ML for Socio-Economic & Geo Data\n\nInstructional Video Tutorials: http://www.thinkr.spatialfiltering.com/"
+  },
+  {
+    "objectID": "New folder/index2.html#contact",
+    "href": "New folder/index2.html#contact",
+    "title": "Yeamin Faria Chowdhury",
+    "section": "Contact",
+    "text": "Contact\n\nEmail: yxc200012@utdallas.edu\n\nLinkedIn: https://www.linkedin.com/in/yeamin-faria-chowdhury-0b3866135/\n\nGoogle Scholar: https://scholar.google.com/citations?user=k8eo0XkAAAAJ&hl=en"
   }
 ]

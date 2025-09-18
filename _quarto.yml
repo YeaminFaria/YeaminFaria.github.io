@@ -4,63 +4,44 @@ project:
 
 website:
   title: "Yeamin Faria Chowdhury"
+  site-url: https://<your-username>.github.io/<your-repo>/   # optional; helps with meta tags
+  search: true
+  page-navigation: true
   navbar:
+    logo: Image.jpg
     left:
       - text: "Home"
-        href: index.qmd
+        href: index.qmd#top
+      - text: "Analytical Samples"
+        href: index.qmd#projects
+      - text: "Teaching Experiences"
+        href: index.qmd#teaching
+      - text: "Contact"
+        href: index.qmd#contact
       - text: "CV"
-        href: cv.pdf
-      - text: "Class Presentations"
-        menu:
-          - text: "Prepare for class 1"
-            href: KM_Prepare for class 1_Nakir.pdf
-          - text: "Prepare for class 2"
-            href: KM_Prepare for class 2_Nakir.pdf
-          - text: "Prepare for class 3"
-            href: KM_Prepare for class 3_Nakir.pdf
-          - text: "Prepare for class 4"
-            href: KM_Prepare for class 4_Nakir.pdf
-          - text: "Prepare for class 5"
-            href: KM_Prepare for class 5_Nakir.pdf
-          - text: "Prepare for class 6"
-            href: KM_Prepare for class 6_Nakir.pdf
-      - text: "Assignments"
-        menu:
-          - text: "Assignment 01"
-            href: KM_Assignment01_Nakir.pdf
-          - href: KM_Assignment02_Nakir.qmd
-            text: Assignment 02
-          - text: "Assignment 03"
-            href: KM_Assignment03_Nakir.pdf
-          - href: KM_Assignment04_Nakir.qmd
-            text: Assignment 04
-          - href: KM_Assignment05_Nakir.qmd
-            text: Assignment 05
-      - text: "Labs"
-        menu:
-          - href: Lab01.qmd
-            text: Lab 01
-          - href: Lab02.qmd
-            text: Lab 02
-      - text: "Workshops"
-        menu:
-          - href: workshops.qmd
-            text: Workshop Overview
-      - text: "Final Project"
-        menu:
-          - text: "Final Project Proposal"
-            href: KM_Project_Proposal_Nakir.pdf
-          - text: "Final Project Progress"
-            href: KM_Project_Progress_Nakir.pdf
-          - text: "Final Project Presentation"
-            href: Nakir_Final_Project_Presesntation.pdf
-          - text: "Final Project Document"
-            href: Nakir_Final_Project_Report.pdf
+        href: CV-YeaminChowdhury.pdf
+    right:
+      - icon: linkedin
+        aria-label: LinkedIn
+        href: https://www.linkedin.com/in/yeamin-faria-chowdhury-0b3866135/
+      - icon: google-scholar
+        aria-label: Google Scholar
+        href: https://scholar.google.com/citations?user=k8eo0XkAAAAJ&hl=en
+      - icon: envelope
+        aria-label: Email
+        href: mailto:yeaminfaria.chowdhury@utdallas.edu
+  page-footer:
+    left: "© {{< meta title >}}"
 
 format:
   html:
     theme:
-      - cosmo
-      - brand
+      light: minty
+      dark: solar
     css: styles.css
-    toc: true
+    toc: False
+    smooth-scroll: true
+    anchor-sections: true
+    link-external-newwindow: true
+    execute:
+      echo: false

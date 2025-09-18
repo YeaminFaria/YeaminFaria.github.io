@@ -1,16 +1,260 @@
 ---
-title: "Welcome"
-format: html
+title: "Yeamin Faria Chowdhury"
+subtitle: "Geospatial Scientist · Remote Sensing · Spatial Data Science"
+image: Image.jpg
+page-layout: full
+about:
+  template: trestles
+  # If you want your name + subtitle over the hero, uncomment:
+  #title: "Yeamin Faria Chowdhury"
+  #subtitle: "Geospatial Scientist · Remote Sensing · Spatial Data Science"
+  links:
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/yeamin-faria-chowdhury-0b3866135/
+    - icon: google-scholar
+      text: Google Scholar
+      href: https://scholar.google.com/citations?user=k8eo0XkAAAAJ&hl=en
+    - icon: file-earmark-text
+      text: CV (PDF)
+      href: CV-YeaminChowdhury.pdf
 ---
 
-# Welcome
+<span id="top"></span>
 
-Welcome! I’m Yeamin, a PhD candidate in Geospatial Information Sciences at The University of Texas at Dallas.
+Yeamin Faria Chowdhury is a geospatial scientist specializing in wildlife ecology, remote sensing, and spatial data science. She earned a PhD in Geospatial Information Sciences from The University of Texas at Dallas, USA. Her dissertation used camera-trap, environmental, and anthropogenic data to study mammal behavior and predator–prey dynamics in Guyana. She develops machine learning workflows in Python, R, and ArcGIS. She has teaching experience in GIS and analytics, and has received the 2024–25 Pioneer Student Research Grant and the 2025 GIS Outstanding Teaching Assistant Award.  
 
-This website presents the projects and coursework I completed for the class EPPS 6323: Knowledge Mining.
+**Education:**  
+PhD in Geospatial Information Sciences	(August 2025). [The University of Texas at Dallas](https://www.utdallas.edu/), Texas, USA.
+
+Master of Science in Environmental Sciences	(December 2019) 
+[Jahangirnagar University](https://juniv.edu/), Savar, Bangladesh. 
 
 
-**Contact:**
 
-📧 [md.nakir.ahmed.09\@gmail.com](mailto:md.nakir.ahmed.09@gmail.com)\
-🔗 [LinkedIn](https://linkedin.com/in/YOUR-USERNAME)
+---
+
+
+::: {.section-band}
+## Analytical Samples {#projects}
+
+::: {.grid .gap-3}
+::: {.g-col-12 .g-col-md-6}
+::: {.card .h-100}
+### [Statistical Hierarchical Modeling](ApexPred.pdf){.btn .btn-primary target="_blank"}
+:::
+:::
+
+::: {.g-col-12 .g-col-md-6}
+::: {.card .h-100}
+### [Camera-Trap Framework for Occupancy and Activity](MamOcc.pdf){.btn .btn-primary target="_blank"}
+:::
+:::
+
+::: {.g-col-12 .g-col-md-6}
+::: {.card .h-100}
+### [Multinomial Logit Model for Behavioral Analysis](Drivers_Diel_Activity.pdf){.btn .btn-primary target="_blank"}
+:::
+:::
+
+::: {.g-col-12 .g-col-md-6}
+::: {.card .h-100}
+### [Machine Learning Models for Classification](DiabetesClass.pdf){.btn .btn-primary target="_blank"}
+::: 
+::: 
+
+::: {.g-col-12 .g-col-md-6}
+::: {.card .h-100}
+### [Optimal Path Analysis Using Dijkstra’s Algorithm](OptimalPath.pdf){.btn .btn-primary target="_blank"}
+::: 
+::: 
+
+::: {.g-col-12 .g-col-md-6}
+::: {.card .h-100}
+### [GIS-Based Site Suitability Analysis](GardenSites.pdf){.btn .btn-primary target="_blank"}
+::: 
+:::
+
+::: {.g-col-12 .g-col-md-6}
+::: {.card .h-100}
+### [Automated Pool Detection Using Faster R-CNN](PoolDetection.pdf){.btn .btn-primary target="_blank"}
+::: 
+:::
+
+::: {.g-col-12 .g-col-md-6}
+::: {.card .h-100}
+### [Spatially Constrained Clustering Analysis](HomoRegions.pdf){.btn .btn-primary target="_blank"}
+::: 
+:::
+
+::: 
+:::
+---
+
+## Teaching Experiences {#teaching}
+
+- The Global Environment 
+- GIS Fundamentals 
+- Remote Sensing Fundamentals 
+- Advanced GIS Data Analysis  
+- Applied Regression 
+- ML for Socio-Economic & Geo Data
+
+**Instructional Video Tutorials:** <http://www.thinkr.spatialfiltering.com/>
+---
+## Contact {#contact}
+
+<div class="contact-grid">
+
+<div class="contact-card">
+  <a href="mailto:yeaminfaria.chowdhury@utdallas.edu" target="_blank">
+    <i class="fas fa-envelope"></i>
+    <span>Email</span>
+    <small>yeaminfaria.chowdhury@utdallas.edu</small>
+  </a>
+</div>
+
+<div class="contact-card">
+  <a href="https://www.linkedin.com/in/yeamin-faria-chowdhury-0b3866135/" target="_blank">
+    <i class="fab fa-linkedin"></i>
+    <span>LinkedIn</span>
+    <small>/yeamin-faria-chowdhury</small>
+  </a>
+</div>
+
+</div>
+
+
+
+
+<!-- Modern fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;600;700&family=Fraunces:opsz,wght@9..144,600;9..144,700&display=swap" rel="stylesheet">
+
+<style>
+/* ===== Global look & feel ===== */
+:root{
+  --brand:#2fb79c;         /* primary (mint-teal) */
+  --brand-dark:#199a83;    /* hover */
+  --ink:#1f2937;           /* text */
+  --muted:#6b7280;         /* secondary text */
+  --paper:#ffffff;
+  --bg:#f6f8fb;            /* soft page bg */
+  --ring: rgba(47,183,156,.35);
+  --radius:14px;
+  --shadow: 0 8px 24px rgba(0,0,0,.06);
+  --shadow-sm: 0 4px 14px rgba(0,0,0,.05);
+  --nav-h:64px;
+}
+
+html, body{
+  background: var(--bg) !important;
+  color: var(--ink);
+  font-family: "Plus Jakarta Sans", system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+h1, h2, h3{
+  font-family: "Fraunces", Georgia, serif;
+  color: #111827;
+  letter-spacing:.2px;
+}
+h1{ font-size: clamp(2.2rem, 2.6vw + 1rem, 3.2rem); line-height:1.12; }
+h2{ font-size: clamp(1.6rem, 1.3vw + 1rem, 2.1rem); line-height:1.18; margin-top: .25rem; }
+h3{ font-size: 1.15rem; }
+
+/* Paragraphs & lists */
+p, li{ font-size:1.02rem; line-height:1.7; color:var(--ink); }
+em, strong{ color:#0f172a; }
+
+/* Links */
+a{ color: var(--brand); text-decoration: none; }
+a:hover{ color: var(--brand-dark); text-decoration: underline; text-underline-offset: 3px; }
+
+/* ===== Hero / About (trestles) ===== */
+.quarto-about-trestles{
+  background: var(--paper) !important;
+  border: 1px solid #eaeef3;
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  padding: 1.25rem 1.25rem 1.5rem;
+  margin-top: 0 !important;
+}
+.quarto-about-trestles .about-contents h1{
+  margin-bottom: .35rem;
+}
+.quarto-about-trestles .about-image img{
+  border-radius: 16px;
+  box-shadow: var(--shadow);
+}
+
+/* Sticky hero on desktop */
+@media (min-width: 992px){
+  .quarto-about-trestles{
+    position: sticky; top: calc(var(--nav-h) + 12px); align-self: start; z-index: 2;
+  }
+  .page-layout-full .page-columns{ padding-top: 0 !important; }
+}
+
+/* ===== Section band (Analytical Samples) ===== */
+.section-band{
+  margin: 2.2rem 0 0;
+  padding: 4.2rem 0 3.6rem;
+  background: linear-gradient(180deg, #f3f6fb 0%, #eef4f7 100%);
+  border-top: 1px solid #e6ebf2;
+  border-bottom: 1px solid #e6ebf2;
+}
+.section-band h2{
+  text-align:center; font-weight:700; margin-bottom:.75rem;
+}
+.section-band p.section-subtitle{
+  text-align:center; color:var(--muted); margin:0 0 2.2rem;
+}
+
+/* ===== Cards & buttons ===== */
+.card{
+  background: var(--paper) !important;
+  border: 1px solid #eaeef3;
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-sm);
+  transition: transform .18s ease, box-shadow .18s ease, border-color .18s ease;
+}
+.card:hover{
+  transform: translateY(-3px);
+  box-shadow: var(--shadow);
+  border-color: #dfe7ee;
+}
+.btn{
+  display:inline-block;
+  width:100%;
+  text-align:center;
+  border-radius: 999px !important;
+  padding:.9rem 1.1rem !important;
+  font-weight:700;
+  letter-spacing:.2px;
+  border: 1px solid var(--brand);
+  background: var(--brand);
+  color: #fff !important;
+  box-shadow: 0 6px 18px var(--ring);
+  transition: transform .12s ease, box-shadow .15s ease, background .15s ease;
+}
+.btn:hover{
+  background: var(--brand-dark);
+  transform: translateY(-1px);
+  box-shadow: 0 10px 26px var(--ring);
+  text-decoration:none !important;
+}
+
+/* Pill tags (optional small links under cards) */
+.pill{
+  display:inline-block; padding:.25rem .6rem; border-radius:999px;
+  background:#eef6f4; color:#0d6b5d; font-size:.8rem; margin-right:.4rem;
+}
+
+/* Sidebar / TOC transparent */
+.sidebar, .sidebar nav{ background: transparent !important; }
+
+/* Small touches */
+hr{ border:0; border-top:1px solid #e5e9f0; margin:1.6rem 0; }
+blockquote{ border-left:4px solid var(--brand); padding:.2rem 1rem; background:#f2fbf8; }
+</style>

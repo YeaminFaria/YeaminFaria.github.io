@@ -1,0 +1,49 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Yeamin Faria Chowdhury"
+  navbar:
+    left:
+      - text: "Home"
+        href: index.qmd
+      - text: "CV"
+        href:  CV-YeaminChowdhury.pdf
+      - text: "Projects"
+        menu:
+          - text: "Occupancy and Activity Analysis"
+            href: MamOcc.pdf
+          - text: "Multinomial Logit Modeling"
+            href: Drivers_Diel_Activity.pdf
+          - text: "Multispecies Occupancy Analysis"
+            href: ApexPred.pdf
+          - text: "Prepare for class 4"
+            href: DiabetesClass.pdf
+          - text: "Prepare for class 5"
+            href: KM_Prepare for class 5_Nakir.pdf
+          - text: "Prepare for class 6"
+            href: KM_Prepare for class 6_Nakir.pdf
+      - text: "Teaching experiences"
+        menu:
+          - text: "Assignment 01"
+            href: KM_Assignment01_Nakir.pdf
+          - href: KM_Assignment02_Nakir.qmd
+            text: Assignment 02
+          - text: "Assignment 03"
+            href: KM_Assignment03_Nakir.pdf
+          - href: KM_Assignment04_Nakir.qmd
+            text: Assignment 04
+          - href: KM_Assignment05_Nakir.qmd
+            text: Assignment 05
+
+      
+
+format:
+  html:
+    backgroundcolor: "#eeffee"
+    theme:
+      light: flatly
+      dark: darkly
+    css: styles.css
+    toc: true
